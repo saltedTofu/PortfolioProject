@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#203354;
+  color:white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  min-width:800px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+body{
+  font-size:150%;
+}
+h1{
+  font-size:2.5em;
+}
+h2{
+  font-size:1.875em;
+}
+p{
+  font-size:0.875em;
+}
+ul{
+  columns:2;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
+  width:100%;
+  height:10%;
+  border-bottom:1px solid black;
+}
+#logoAndResume{
+  width:15%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  width:100px;
+  height:100px;
+  border:1px solid red;
+}
+#pageLinks{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  min-width:400px;
+  width:20%;
+  border:1px solid red;
+}
+.sideLinks{
+  position:fixed;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  border-right:1px solid black;
+  height:50%;
+  width:5%;
+  top: 25%;
+}
+#main{
+  justify-content:center;
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:100%;
+}
+.mainBodySection{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  border:1px solid aqua;
+  width:60%;
+}
+.sectionTitle{
+  padding-right:50%;
+  border:1px solid red;
+}
+#aboutDescription{
+  width:50%;
+}
+#technologiesList{
+  border:1px solid red;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  height: 200px;
+  width:auto;
+}
+.techLogoAndImg{
+  display:flex;
+  align-items: center;
+}
+.techLogo{
+  width:60px;
+  height:auto;
+}
+#dataStructuresAndAlgorithms{
+  text-align:center;
+}
+#dsPlayground{
+  width: 40vw;
+  height:400px;
+  border:1px solid black;
+}
+#responsiveWebDesign{
+  text-align:center;
+}
+#responsivePlayground{
+  width:40vw;
+  height:400px;
+  border:1px solid black;
+}
+#projectExamplesWrapper{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  align-items: center;
+  border:1px solid black;
+  width:80%;
+}
+.projectExample{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:300px;
+  height:300px;
+  border:1px solid black;
+}
+#footer{
+  text-align:center;
+}
+.techInProject{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width:60%;
+  border:1px solid red;
+}
+/* unvisited link */
+a:link {
+  color: red;
 }
 
-.App-link {
-  color: #61dafb;
+/* visited link */
+a:visited {
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }

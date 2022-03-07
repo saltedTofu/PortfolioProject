@@ -1,0 +1,14 @@
+.sideLinks{
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:50%;
+    width:5%;
+    top: 25%;
+}
+.linkLogo{
+    width:50px;
+    height:auto;
+    margin-left:10%;
+}

@@ -1,0 +1,17 @@
+#technologiesList{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+  height: fit-content;
+  width:100%;
+}
+.techLogoAndImg{
+  display:flex;
+  align-items: center;
+  padding:2%;
+}
+.techLogo{
+  width:auto;
+  height:60px;
+}

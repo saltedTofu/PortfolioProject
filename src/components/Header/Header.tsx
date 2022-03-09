@@ -5,15 +5,16 @@ function Header(){
     return(
         <div className="header">
             <div id="logoAndResume">
-                <a id="logo" href="localhost:3000"><img src={Logo} width='50px'></img></a>
+                <a id="logo" href="localhost:3000"><img alt='T logo' src={Logo} width='50px'></img></a>
                 <a>Resume</a>
             </div>
             <div></div>
             <div id="pageLinks">
-                <a>About</a>
-                <a>Skills</a>
-                <a>Projects</a>
-                <a>Contact</a>
+                <a href='#aboutMe'>About</a>
+                <a href='#skills'>Skills</a>
+                <a href='#projects'>Projects</a>
+                <a href='#education'>Education</a>
+                <a href='#contact'>Contact</a>
             </div>
         </div>
     )

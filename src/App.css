@@ -10,6 +10,7 @@ html{
 }
 .App{
   min-width:800px;
+  position:absolute;
 }
 body{
   font-size:150%;
@@ -29,19 +30,11 @@ ul{
 }
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(230, 81, 0);
 }
 /* visited link */
 a:visited {
-  color: green;
-}
-/* mouse over link */
-a:hover {
-  color: black;
-}
-/* selected link */
-a:active {
-  color: blue;
+  color: rgb(230, 81, 0);
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -74,4 +67,16 @@ input[type=number] {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+.fade-in-section{
+  opacity: 0;
+  transform: translatex(5vw);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }

@@ -1,13 +1,10 @@
 import './Main.css';
-import RDCalc from '../../utils/RDCalc.png';
-import Pomodoro from '../../utils/Pomodoro.png';
-import Callouts from '../../utils/Callouts.png';
 //Component Imports
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import WhatDoIKnow from './WhatDoIKnow/WhatDoIKnow';
 import WhoAmI from './WhoAmI/WhoAmI';
-
+import Education from './Education/Education';
 
 function Main(){
     return(
@@ -16,6 +13,7 @@ function Main(){
             <WhoAmI />
             <WhatDoIKnow />
             <Projects />
+            <Education />
             <Contact />
         </div>
     )

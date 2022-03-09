@@ -1,0 +1,29 @@
+#LoadScreen{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    background-color:#00001c;
+    animation: load 2s forwards;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes load{
+    0%{
+        z-index:3;
+        opacity:1;
+    }
+    60%{
+        opacity:1;
+    }
+    99%{
+        opacity:0;
+        z-index:3;
+    }
+    100%{
+        opacity:0;
+        display:none;
+        z-index:-1;
+    }
+}

@@ -1,20 +1,19 @@
 #main{
-    justify-content:center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width:100%;
-    padding-top:6%;
-  }
+  justify-content:center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  padding-top:6%;
+}
+.sectionTitle{
+  padding-left:10%;
+}
 .mainBodySection{
   display:flex;
   flex-direction:column;
   align-items: flex-start;
   justify-content: center;
   width:75%;
-  box-shadow: 10px 10px 15px #192842;
-  margin: 3% 0 3% 0;
-}
-.sectionTitle{
-  padding-left:10%;
+  margin: 6% 0 6% 0;
 }

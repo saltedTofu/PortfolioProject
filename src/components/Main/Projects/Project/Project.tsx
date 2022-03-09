@@ -11,6 +11,7 @@ type projectProps = {
 const Project = ({name, liveLink, gitLink, tech, img, description}:projectProps) => {
     return(
         <div className="projectExample">
+            <div id="overlay"></div>
             <img id="projectImage" width="600px" src={img}></img>
             <div id="rightSideInfo">
                 <h3>{name}</h3>

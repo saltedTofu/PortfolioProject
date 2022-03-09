@@ -11,7 +11,7 @@ import WhoAmI from './WhoAmI/WhoAmI';
 
 function Main(){
     return(
-        <div id="main">
+        <div id="main" >
             <h1>Tyler Dansby, RD</h1>
             <WhoAmI />
             <WhatDoIKnow />

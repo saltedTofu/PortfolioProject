@@ -28,3 +28,44 @@
     min-width:400px;
     width:20%;
 }
+#openSideLinks{
+    display:none;
+    width:50px;
+    height:50px;
+    border:1px solid black;
+}
+#lineOne, #lineTwo, #lineThree{
+    animation:none;
+}
+@keyframes lineOneMovement{
+    100%{
+        x1:10;
+        y1:11;
+        x2:40;
+        y2:33;
+    }
+}
+@keyframes lineTwoMovement{
+    100%{
+        x1:0;
+        y1:11;
+        x2:0;
+        y2:33;
+    }
+}
+@keyframes lineThreeMovement{
+    100%{
+        x1:10;
+        y1:33;
+        x2:40;
+        y2:11;
+    }
+}
+@media only screen and (max-width: 800px){
+    #pageLinks, #resumeLink{
+        display:none;
+    }
+    #openSideLinks{
+        display:block;
+    }
+}

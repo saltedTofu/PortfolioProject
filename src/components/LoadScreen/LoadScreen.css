@@ -3,7 +3,7 @@
     height:100vh;
     position:fixed;
     background-color:#00001c;
-    animation: load 2s forwards;
+    animation: load 0.1s forwards;
     display:flex;
     justify-content: center;
     align-items: center;

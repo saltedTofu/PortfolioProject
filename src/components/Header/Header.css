@@ -36,31 +36,57 @@
 }
 #lineOne, #lineTwo, #lineThree{
     animation:none;
+    transform-origin:center;
 }
 @keyframes lineOneMovement{
-    100%{
-        x1:10;
-        y1:11;
-        x2:40;
-        y2:33;
+    from{
+        transform: translate(0px, 0px) rotate(0turn);
+    }
+    to{
+        transform: translate(-10px, 6px) rotate(0.125turn);
+    }
+}
+@keyframes lineOneMovementRev{
+    from{
+        transform: translate(-10px, 6px) rotate(0.125turn);
+    }
+    to{
+        transform: translate(0px, 0px) rotate(0turn);
     }
 }
 @keyframes lineTwoMovement{
-    100%{
-        x1:0;
-        y1:11;
-        x2:0;
-        y2:33;
+    from{
+        transform: translate(0px, 0px) rotate(0turn);
     }
+    to{
+        transform: translate(-35px, 0px) rotate(0.25turn);
+    } 
+}
+@keyframes lineTwoMovementRev{
+    from{
+        transform: translate(-35px, 0px) rotate(0.25turn);
+    }
+    to{
+        transform: translate(0px, 0px) rotate(0turn);
+    } 
 }
 @keyframes lineThreeMovement{
-    100%{
-        x1:10;
-        y1:33;
-        x2:40;
-        y2:11;
+    from{
+        transform: translate(0px, 0px) rotate(0.turn);
+    }
+    to{
+        transform: translate(-5px, -8px) rotate(-0.125turn);
     }
 }
+@keyframes lineThreeMovementRev{
+    from{
+        transform: translate(-5px, -8px) rotate(-0.125turn);
+    }
+    to{
+        transform: translate(0px, 0px) rotate(0.turn);
+    }
+}
+
 @media only screen and (max-width: 800px){
     #pageLinks, #resumeLink{
         display:none;

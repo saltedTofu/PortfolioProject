@@ -3,12 +3,24 @@
     height:100vh;
     position:fixed;
     background-color:#00001c;
-    animation: load 0.1s forwards;
+    animation: load 2s forwards;
     display:flex;
     justify-content: center;
     align-items: center;
 }
+#TLogo{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 2s linear;
+    width:200px;
+    height:200px;
+}
+@keyframes dash {
 
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
 @keyframes load{
     0%{
         z-index:3;

@@ -34,12 +34,13 @@ function Header(){
                 <a href='#education'>Education</a>
                 <a href='#contact'>Contact</a>
             </div>
-                <svg id="openSideLinks" onClick={()=>{handleSideLinks()}}>
-                    <line id="lineOne" x1="5" y1="15" x2="45" y2="15" stroke="black" strokeWidth='3'/>
-                    <line id="lineTwo" x1="5" y1="25" x2="45" y2="25" stroke="black" strokeWidth='3'/>
-                    <line id="lineThree" x1="5" y1="35" x2="45" y2="35" stroke="black" strokeWidth='3'/>
-                </svg>
-            
+                <div id="svgWrapper">
+                    <svg id="openSideLinks" onClick={()=>{handleSideLinks()}}>
+                        <line id="lineOne" x1="5" y1="15" x2="45" y2="15" stroke="black" strokeWidth='3'/>
+                        <line id="lineTwo" x1="5" y1="25" x2="45" y2="25" stroke="black" strokeWidth='3'/>
+                        <line id="lineThree" x1="5" y1="35" x2="45" y2="35" stroke="black" strokeWidth='3'/>
+                    </svg>
+                </div>
         </div>
     )
 }

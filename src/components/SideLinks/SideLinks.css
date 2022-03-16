@@ -1,7 +1,7 @@
 #SideLinks{
     width:0vw;
     position:fixed;
-    height:100vh;
+    height:100%;
     right:0;
     animation:slideIn 0.5s forwards;
     z-index:3;
@@ -17,7 +17,7 @@
 }
 @keyframes slideIn{
     to{
-        width:35vw;
+        width:35%;
         display:flex;
     }
 }

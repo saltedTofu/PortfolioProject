@@ -26,6 +26,7 @@
   justify-content: flex-start;
   align-items: center;
   z-index: 0;
+  margin-left:10%;
 }
 .appDescription{
   font-size: 1.1rem;
@@ -55,16 +56,113 @@
   box-shadow: 10px 10px 5px #192842;
   z-index: 0;
 }
-@media only screen and (max-width: 1200px){
+#projects a{
+  font-size: 1.5rem;
+}
+#projects p{
+  font-size:1.2rem;
+}
+@media only screen and (max-width: 1500px) and (min-width:1401px){
+  #projects a{
+    font-size: 1.4rem;
+  }
+  #projects p{
+    font-size:1.1rem;
+  }
+  #rightSideInfo{
+    margin-left:7%;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width:1201px){
+  #projectImage{
+    width:450px;
+    height:auto;
+  }
+  #projects a{
+    font-size: 1rem;
+  }
+  #projects p{
+    font-size:1.1rem;
+  }
+  #rightSideInfo{
+    margin-left:7%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width:1101px){
   #projectImage{
     width:400px;
     height:auto;
   }
-  .appDescription{
-    font-size: 0.9rem;
-    padding:0% 5% 0% 5%;
+  #projects a{
+    font-size: 1rem;
+  }
+  #projects p{
+    font-size:1.1rem;
+  }
+  #projects{
+    width:80%;
+  }
+  #rightSideInfo{
+    margin-left:7%;
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width:1001px){
+  #projectImage{
+    width:400px;
+    height:auto;
   }
   #projects a{
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+  #projects p{
+    font-size:1.1rem;
+  }
+  #projects{
+    width:85%;
+  }
+  #rightSideInfo{
+    margin-left:5%;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width:901px){
+  #projectImage{
+    width:400px;
+    height:auto;
+  }
+  #projects a{
+    font-size: 1rem;
+  }
+  #projects p{
+    font-size:1rem;
+  }
+  #projects h3{
+    font-size:1.4rem;
+  }
+  #projects{
+    width:89%;
+  }
+  #rightSideInfo{
+    margin-left:3%;
+  }
+}
+@media only screen and (max-width:900px){
+  #projectImage{
+    width:350px;
+    height:auto;
+  }
+  #projects a{
+    font-size: 0.8rem;
+  }
+  #projects p{
+    font-size:0.9rem;
+  }
+  #projects h3{
+    font-size:1.4rem;
+  }
+  #projects{
+    width:89%;
+  }
+  #rightSideInfo{
+    margin-left:3%;
   }
 }

@@ -9,7 +9,7 @@ import Education from './Education/Education';
 function Main(){
     return(
         <div id="main" >
-            <h1>Tyler Dansby, RD</h1>
+            <h1 id="tylerDansby">Tyler Dansby, RD</h1>
             <WhoAmI />
             <WhatDoIKnow />
             <Projects />

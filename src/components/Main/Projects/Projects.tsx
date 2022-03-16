@@ -20,7 +20,7 @@ function Projects(){
       <div id="projects" className="mainBodySection">
         <h1 className="sectionTitle">Projects</h1>
         <div id="projectExamplesWrapper" className={`fade-in-section ${visible ? 'is-visible' : ''}`}>
-          <div >
+          <div>
             <Project 
                 name='Callouts' 
                 liveLink={'https://halocallouts.netlify.app/'}

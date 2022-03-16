@@ -58,6 +58,10 @@
 }
 #projects a{
   font-size: 1.5rem;
+  padding:1%;
+}
+#projects a:hover{
+  background-color: rgba(25, 78, 74, 1);
 }
 #projects p{
   font-size:1.2rem;

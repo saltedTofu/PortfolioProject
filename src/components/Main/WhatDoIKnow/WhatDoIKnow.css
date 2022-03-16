@@ -1,7 +1,13 @@
-#technologiesList{
+#technologiesListTop{
   display:flex;
   flex-direction:row;
-  flex-wrap:wrap;
+  justify-content: center;
+  height: fit-content;
+  width:100%;
+}
+#technologiesListBottom{
+  display:flex;
+  flex-direction:row;
   justify-content: center;
   height: fit-content;
   width:100%;
@@ -19,5 +25,15 @@
   columns:2;
 }
 #javascriptLogo, #typescriptLogo, #gitLogo{
-  padding:7px;
+  padding:6%;
+}
+
+@media only screen and (min-width:1300px) {
+  .techLogo{
+    width:auto;
+    height:100px;
+  }
+  .techLogoAndImg{
+    font-size:2rem;
+  }
 }

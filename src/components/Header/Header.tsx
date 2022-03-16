@@ -35,7 +35,7 @@ function Header({sideLinks, setSideLinks}:props){
     return(
         <div className="header">
             <div id="logoAndResume">
-                <a id="logo" onClick={()=>{window.location.reload()}}><img alt='T logo' src={Logo} width='50px'></img></a>
+                <a id="logo" onClick={()=>{window.location.reload()}}><img alt='T logo' src={Logo} id="logoNestedImg"></img></a>
                 <a id="resumeLink" href={Resume} target="_blank">Resume</a>
             </div>
             <div id="empty"></div>

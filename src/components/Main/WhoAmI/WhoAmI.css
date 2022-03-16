@@ -1,7 +1,13 @@
 #aboutDescription{
-    min-width:500px;
-    width:60%;
-    text-indent: 60px;
-    margin-bottom:2%;
-    text-align: left;
+  min-width:500px;
+  width:60%;
+  text-indent: 60px;
+  margin-bottom:2%;
+  text-align: left;
+}
+
+@media only screen and (min-width:1600px){
+  #aboutDescription{
+    font-size:1.8rem;
   }
+}

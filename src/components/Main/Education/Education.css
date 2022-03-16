@@ -1,12 +1,21 @@
 #education h3{
     text-decoration:underline;
-}
-#education h4{
-    text-indent:5%;
-}
-#education h5{
-    text-indent:10%;
+    text-align: center;
 }
 #education a{
-   margin-left:10%;
+    font-size:1.3rem;
+    padding:1%;
+}
+#education a:hover{
+    background-color:rgba(25, 78, 74, 1);
+}
+#school, #devCourses, #workExperience{
+    margin-bottom:5%;
+    margin-top:5%;
+}
+.subscript{
+    margin-left:15%;
+}
+.dates{
+    font-style: italic;
 }

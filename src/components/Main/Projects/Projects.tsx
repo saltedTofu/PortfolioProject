@@ -27,7 +27,7 @@ function Projects(){
                 gitLink="https://github.com/saltedTofu/Callouts"
                 tech={['React','CSS']}
                 img={Callouts}
-                description='This project is a tool for people who are trying to learn callout locations for the various competitive maps in Halo 3. Users will go to the map blueprint they want to use and when they mouse over sections of the map, the name of the callout is shown, the area is highlighted in the blueprint, and an in-game screenshot is shown on the right side panel. Users can use this app to learn callouts, to quiz themselves, or to reference while playing Halo 3.'
+                description='This app is a tool for people who are trying to learn callout locations for the various competitive maps in Halo 3. Users will navigate to their desired map blueprint and mouse over sections of the map to show the name of the callout and an in-game screenshot on the right side panel. Users can use this app to learn callouts, to quiz themselves, or to use as a reference while playing Halo 3.'
                 />
           </div>
           <div>

@@ -14,6 +14,12 @@
 }
 #SideLinks a{
     padding:5%;
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+}
+#SideLinks a:hover{
+    background-color: rgba(25, 78, 74, 0.5);
 }
 @keyframes slideIn{
     to{

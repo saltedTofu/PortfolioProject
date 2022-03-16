@@ -26,13 +26,10 @@ p{
   font-size:0.875em;
 }
 a{
-  text-decoration: underline;
   color:#fafafa;
+  text-decoration: underline;
 }
 /* unvisited link */
-#contact a:hover{
-  animation:pulse 1s forwards infinite;
-}
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -79,17 +76,17 @@ input[type=number] {
 }
 @keyframes pulse{
   0% {
-  transform: scale(0.95);
-  box-shadow: 0 0 0 0 rgba(25, 78, 74, 1);
-}
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(25, 78, 74, 1);
+  }
 
-70% {
-  transform: scale(1);
-  box-shadow: 0 0 0 10px rgba(255, 153, 51, 0);
-}
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(25, 78, 74, 0.5);
+  }
 
-100% {
-  transform: scale(0.95);
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-}
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }

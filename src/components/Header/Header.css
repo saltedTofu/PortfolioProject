@@ -30,6 +30,14 @@
 }
 #logo{
    margin:3% 0 0% 3%;
+   padding:0%;
+}
+#logo:hover{
+    background-color:rgba(25, 78, 74, 0);
+}
+#logoNestedImg{
+    width:50px;
+    height:auto;
 }
 #openSideLinks{
     width:50px;
@@ -47,8 +55,12 @@
     transform-origin:center;
     stroke:white;
 }
-.header a:hover{
-    animation:pulse 1s forwards infinite;
+.header a{
+    text-decoration: none;
+    padding:1%;
+}
+.header a:hover{ 
+    background-color:rgba(25, 78, 74, 1);
 }
 @keyframes lineOneMovement{
     from{

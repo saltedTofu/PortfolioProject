@@ -3,7 +3,7 @@
     flex-direction:row;
     align-items: center;
     justify-content:space-between;
-    width:100vw;
+    width:100%;
     height:8%;
     box-shadow: 5px 5px 10px #192842;
     position:fixed;
@@ -99,14 +99,11 @@
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1050px){
     #pageLinks, #resumeLink{
         display:none;
     }
     #svgWrapper{
         display:block;
-    }
-    .header{
-        height:12%;
     }
 }

@@ -1,8 +1,12 @@
 import './Header.css';
 import Logo from '../../utils/Logo.png';
+import Resume from '../../utils/Resume.png';
 import {useEffect, useState} from 'react';
 
 function Header(){
+    const [sideLinks,setSideLinks] = useState('closed');
+
+
     useEffect(()=>{
         if(sideLinks==='closed'){
             document.getElementById('SideLinks')!.style.display='none';
@@ -11,7 +15,7 @@ function Header(){
             document.getElementById('SideLinks')!.style.display='flex';
         }
     })
-    const [sideLinks,setSideLinks] = useState('closed');
+    
     const handleSideLinks = () =>{
         if(sideLinks==='closed'){
             document.getElementById('lineOne')!.style.animation='lineOneMovement 0.5s forwards';
@@ -31,7 +35,7 @@ function Header(){
         <div className="header">
             <div id="logoAndResume">
                 <a id="logo" onClick={()=>{window.location.reload()}}><img alt='T logo' src={Logo} width='50px'></img></a>
-                <a id="resumeLink">Resume</a>
+                <a id="resumeLink" href={Resume} target="_blank">Resume</a>
             </div>
             <div id="empty"></div>
             <div id="pageLinks">

@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer(){
     return (
-        <div id="footer">
+        <div className="footer">
             <p>Tyler Dansby 2022</p>
         </div>
     )

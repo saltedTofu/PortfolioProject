@@ -1,4 +1,5 @@
 import Header from './components/Header/Header';
+import SideLinks from './components/SideLinks/SideLinks'
 import Sidebar from './components/Sidebar/Sidebar';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <LoadScreen />
       <Header />
+      <SideLinks />
       <Sidebar />
       <Main />
       <Footer />

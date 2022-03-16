@@ -1,0 +1,21 @@
+#education{
+    width:75%;
+    margin: 6% 0 6% 0;
+    font-size: 1.2rem;
+}
+#education h3{
+    text-decoration:underline;
+}
+#education h4{
+    text-indent:5%;
+}
+#education h5{
+    text-indent:10%;
+}
+#education a{
+   margin-left:10%;
+}
+#education ul{
+    list-style-type: square;
+    list-style-position: inside;
+}

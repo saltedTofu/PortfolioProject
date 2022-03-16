@@ -19,7 +19,7 @@ const Project = ({name, liveLink, gitLink, tech, img, description}:projectProps)
                     <p>{description}</p>
                 </div>
                 <div className="techInProject">
-                    {tech.map(tech => (<div className="techChip"><p>{tech}</p></div>))}
+                    {tech.map(tech => (<div key={tech} className="techChip"><p>{tech}</p></div>))}
                 </div>
                 <div id="gitAndLiveLinks">
                     <a href={gitLink}>Github</a>

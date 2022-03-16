@@ -1,0 +1,33 @@
+#SideLinks{
+    width:0vw;
+    position:fixed;
+    height:100vh;
+    right:0;
+    animation:slideIn 0.5s forwards;
+    z-index:3;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    background-color:rgba(25, 40, 66,0.99);
+}
+#SideLinks a{
+    padding:5%;
+}
+@keyframes slideIn{
+    to{
+        width:35vw;
+        display:flex;
+    }
+}
+
+@media screen and (min-width: 1001px){
+    #SideLinks{
+        display:none;
+        animation:none;
+    }
+    #SideLinks a{
+        display:none;
+    }
+}

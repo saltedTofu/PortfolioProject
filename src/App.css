@@ -25,16 +25,13 @@ h2{
 p{
   font-size:0.875em;
 }
-ul{
-  columns:2;
+a{
+  text-decoration: underline;
+  color:#fafafa;
 }
 /* unvisited link */
-a:link {
-  color: rgb(230, 81, 0);
-}
-/* visited link */
-a:visited {
-  color: rgb(230, 81, 0);
+#contact a:hover{
+  animation:pulse 1s forwards infinite;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -79,4 +76,20 @@ input[type=number] {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+@keyframes pulse{
+  0% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(25, 78, 74, 1);
+}
+
+70% {
+  transform: scale(1);
+  box-shadow: 0 0 0 10px rgba(255, 153, 51, 0);
+}
+
+100% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
 }

@@ -15,3 +15,6 @@
   width:auto;
   height:60px;
 }
+#skills ul{
+  columns:2;
+}

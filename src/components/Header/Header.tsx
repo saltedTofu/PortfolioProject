@@ -3,30 +3,31 @@ import Logo from '../../utils/Logo.png';
 import Resume from '../../utils/Resume.png';
 import {useEffect, useState} from 'react';
 
-function Header(){
-    const [sideLinks,setSideLinks] = useState('closed');
+type props = {
+    sideLinks:string,
+    setSideLinks:(sideLinks:string) => void;
+}
 
+function Header({sideLinks, setSideLinks}:props){
 
     useEffect(()=>{
-        if(sideLinks==='closed'){
-            document.getElementById('SideLinks')!.style.display='none';
-        }
-        else if(sideLinks==='open'){
-            document.getElementById('SideLinks')!.style.display='flex';
-        }
-    })
-    
-    const handleSideLinks = () =>{
-        if(sideLinks==='closed'){
+        if(sideLinks==='open'){
             document.getElementById('lineOne')!.style.animation='lineOneMovement 0.5s forwards';
             document.getElementById('lineTwo')!.style.animation='lineTwoMovement 0.5s forwards';
             document.getElementById('lineThree')!.style.animation='lineThreeMovement 0.5s forwards';
-            setSideLinks('open');
         }
-        else if(sideLinks==='open'){
+        else if(sideLinks==='closed'){
             document.getElementById('lineOne')!.style.animation='lineOneMovementRev 0.5s forwards';
             document.getElementById('lineTwo')!.style.animation='lineTwoMovementRev 0.5s forwards';
             document.getElementById('lineThree')!.style.animation='lineThreeMovementRev 0.5s forwards';
+        }
+    },[sideLinks])
+
+    const handleSideLinks = () =>{
+        if(sideLinks==='closed'){
+            setSideLinks('open');
+        }
+        else if(sideLinks==='open'){
             setSideLinks('closed');
         }
     }

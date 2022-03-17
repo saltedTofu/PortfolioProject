@@ -16,8 +16,15 @@
     height:200px;
 }
 @keyframes dash {
+    60%{
+        opacity:1
+    }
+    99%{
+        opacity:0;
+    }
     100%{
         stroke-dashoffset: 0;
+        opacity:0;
     }
 }
 @keyframes load{

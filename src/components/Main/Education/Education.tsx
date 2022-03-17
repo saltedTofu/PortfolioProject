@@ -24,11 +24,8 @@ const Education = () => {
             <div id="devCourses">
                 <h3>Developer Courses</h3>
                 <p>Codecademy: Front-End Engineer Path</p>
-                <a target="_blank" className="subscript">Certificate</a>
                 <p>Codecademy: Typescript</p>
-                <a target="_blank" className="subscript">Certificate</a>
                 <p>Udemy: Javascript Algorithms and Data Structures Masterclass</p>
-                <a href={udemy} target="_blank" className="subscript">Certificate</a>
             </div>
             <div id="workExperience">
                 <h3>Work Experience</h3>

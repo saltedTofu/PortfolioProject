@@ -16,7 +16,6 @@
     height:200px;
 }
 @keyframes dash {
-
     100%{
         stroke-dashoffset: 0;
     }
@@ -24,17 +23,18 @@
 @keyframes load{
     0%{
         z-index:6;
-        opacity:1;
+        background-color:rgba(0, 0, 28,1);
+
     }
     60%{
-        opacity:1;
+        background-color:rgba(0, 0, 28,1);
     }
     99%{
-        opacity:0;
+        background-color:rgba(0, 0, 28,0);
         z-index:6;
     }
     100%{
-        opacity:0;
+        background-color:rgba(0, 0, 28,0);
         display:none;
         z-index:-1;
     }

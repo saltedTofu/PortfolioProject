@@ -23,7 +23,7 @@ const Education = () => {
             </div>
             <div id="devCourses">
                 <h3>Developer Courses</h3>
-                <p>Codecademy: Front-End Engineer Path</p>
+                <p>Codecademy: Full-Stack Engineer Path</p>
                 <p>Codecademy: Typescript</p>
                 <p>Udemy: Javascript Algorithms and Data Structures Masterclass</p>
             </div>

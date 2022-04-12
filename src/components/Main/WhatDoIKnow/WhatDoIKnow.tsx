@@ -23,7 +23,7 @@ function WhatDoIKnow(){
     return(
         <div id="skills" className={`mainBodySection fade-in-section ${visible ? 'is-visible' : ''}`}>
             <h1 className="sectionTitle">Technologies</h1>
-            <div id="technologiesListTop">
+            <div id="technologiesList">
                 <div className="techLogoAndImg">
                     <img alt="Javascript Logo"src={JSLogo} className="techLogo" id="javascriptLogo"></img>
                     <span>Javascript</span>
@@ -40,8 +40,6 @@ function WhatDoIKnow(){
                     <img alt='React Logo' src={ReactLogo} className="techLogo"></img>
                     <span>React.js</span>
                 </div>
-            </div>
-            <div id="technologiesListBottom">
                 <div className="techLogoAndImg">
                     <img alt='Typescript Logo' src={TypeScriptLogo} className="techLogo" id="typescriptLogo"></img>
                     <span>Typescript</span>

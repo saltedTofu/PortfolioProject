@@ -1,7 +1,7 @@
 import './Header.css';
 import Logo from '../../utils/Logo.png';
 import Resume from '../../utils/Resume.png';
-import {useEffect, useState} from 'react';
+import {useEffect} from 'react';
 
 type props = {
     sideLinks:string,
@@ -35,8 +35,8 @@ function Header({sideLinks, setSideLinks}:props){
     return(
         <div className="header">
             <div id="logoAndResume">
-                <a id="logo" onClick={()=>{window.location.reload()}}><img alt='T logo' src={Logo} id="logoNestedImg"></img></a>
-                <a id="resumeLink" href={Resume} target="_blank">Resume</a>
+                <a id="logo" href='https://tylerdansby.com/'><img alt='T logo' src={Logo} id="logoNestedImg"></img></a>
+                <a id="resumeLink" href={Resume} target="_blank" rel="noreferrer">Resume</a>
             </div>
             <div id="empty"></div>
             <div id="pageLinks">

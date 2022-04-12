@@ -1,6 +1,5 @@
 import './Education.css';
 import {useState, useEffect} from 'react';
-import udemy from '../../../utils/Udemy.jpg';
 
 const Education = () => {
     const [visible,setVisible] = useState(true);
@@ -15,7 +14,7 @@ const Education = () => {
 
     return(
         <div id="education" className={`mainBodySection fade-in-section ${visible ? 'is-visible' : ''}`}>
-            <h1 className="sectionTitle">Education/Experience</h1>
+            <h1 className="sectionTitle">Education</h1>
             <div id="school">
                 <h3>School</h3>
                 <p>University Of Houston, B.S. in Nutritional Sciences, Minor in Biology</p>
@@ -35,8 +34,7 @@ const Education = () => {
                 <p className="subscript dates">Jan 2020-Jan 2021</p>
             </div>
         </div>
-    )
-    
+    )   
 }
 
 export default Education;

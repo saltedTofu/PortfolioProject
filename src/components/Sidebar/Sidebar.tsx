@@ -12,8 +12,8 @@ function Sidebar(){
 
     return(
         <div className="sideLinks">
-            <a href="https://github.com/saltedTofu"><img className="linkLogo" alt='GitHub Logo'src={GitHub} id="gitHubDiv" onMouseEnter={()=>{handleMouseEnter('gitHubDiv')}} onMouseOut={()=>{handleMouseOut('gitHubDiv')}}></img></a>
-            <a href="https://www.linkedin.com/in/tyler-dansby-rd-39541916b"><img className="linkLogo" id="linkedInDiv" alt='LinkedIn Logo' src={LinkedIn}onMouseEnter={()=>{handleMouseEnter('linkedInDiv')}} onMouseOut={()=>{handleMouseOut('linkedInDiv')}}></img></a>
+            <a href="https://github.com/saltedTofu" target="_blank" rel="noreferrer"><img className="linkLogo" alt='GitHub Logo'src={GitHub} id="gitHubDiv" onMouseEnter={()=>{handleMouseEnter('gitHubDiv')}} onMouseOut={()=>{handleMouseOut('gitHubDiv')}}></img></a>
+            <a href="https://www.linkedin.com/in/tyler-dansby-rd-39541916b" target="_blank" rel="noreferrer"><img className="linkLogo" id="linkedInDiv" alt='LinkedIn Logo' src={LinkedIn}onMouseEnter={()=>{handleMouseEnter('linkedInDiv')}} onMouseOut={()=>{handleMouseOut('linkedInDiv')}}></img></a>
         </div>
     )
 }

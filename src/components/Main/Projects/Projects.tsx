@@ -36,9 +36,9 @@ function Projects(){
                 name='Click Champ' 
                 liveLink={'https://click-champ.herokuapp.com/'}
                 gitLink="https://github.com/saltedTofu/click-champ"
-                tech={['React','Node','Express', 'SQL']}
+                tech={['PostgreSQL','Express','React','Node']}
                 img={ClickChamp}
-                description='Click Champ is a full stack game where you can create an account, login, and increase your rank on the scoreboard by clicking the button. The project uses a SQL database for storing/retrieving user data. For encryption I used the crypto-js node library for hashing and salting the passwords before storing them. '
+                description='Click Champ is a full stack game (PERN stack) where you can create an account, login, and increase your rank on the scoreboard by clicking the button. The project uses a SQL database for storing/retrieving user data. For encryption I used the crypto-js node library for hashing and salting the passwords before storing them. '
               />
             </div>
           <div>

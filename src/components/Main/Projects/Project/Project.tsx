@@ -26,7 +26,7 @@ const Project = ({name, liveLink, gitLink, tech, img, description}:projectProps)
                     <a href={liveLink}>Live</a>
                 </div>
             </div>
-
+            <div id="projectBorder"></div>
         </div>
     )
 }

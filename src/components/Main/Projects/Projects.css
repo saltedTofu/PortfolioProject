@@ -6,15 +6,22 @@
   align-items: center;
   width:100%;
 }
+#projectBorder{
+  display:none;
+}
 .techInProject{
   display:flex;
   flex-direction:row;
-  justify-content: space-around;
-  width:fit-content;
+  justify-content: center;
+  width:80%;
+  max-width:400px;
+  flex-wrap: wrap;
 }
 .techChip{
-  margin:10%;
-  padding:5%;
+  margin-top:25px;
+  margin-left:5px;
+  margin-right:5px;
+  padding:10px;
   font-size:1.2rem;
   border-radius: 20%;
   background-color:#43506d;
@@ -30,7 +37,7 @@
 }
 .appDescription{
   font-size: 1.1rem;
-  text-indent: 10%;
+  text-align: center;
 }
 #gitAndLiveLinks{
   display:flex;
@@ -151,22 +158,43 @@
 }
 @media only screen and (max-width:900px){
   #projectImage{
-    width:350px;
+    width:300px;
     height:auto;
   }
   #projects a{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
   #projects p{
-    font-size:0.9rem;
+    font-size:1.2rem;
   }
   #projects h3{
-    font-size:1.4rem;
+    font-size:2.5rem;
+    margin-bottom:10px;
+    margin-top:10px;
   }
   #projects{
     width:89%;
   }
   #rightSideInfo{
-    margin-left:3%;
+    margin-left:7%;
+    width:100%;
+  }
+  #projectExample{
+    flex-direction:column;
+    margin-top:15px;
+    margin-bottom:15px;
+  }
+  .techChip{
+    margin:3%;
+  }
+  #projectExamplesWrapper{
+    width:85%;
+  }
+  #projectBorder{
+    display:block;
+    width:50%;
+    height:2px;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-top:10%;
   }
 }

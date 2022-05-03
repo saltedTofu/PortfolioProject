@@ -4,7 +4,8 @@
     align-items: center;
     justify-content:space-between;
     width:100%;
-    height:100px;
+    height:8%;
+    max-height:100px;
     box-shadow: 5px 5px 10px #192842;
     position:fixed;
     background-color:#203354;
@@ -55,13 +56,31 @@
     transform-origin:center;
     stroke:white;
 }
-.header a{
+#pageLinks a, #resumeLink a{
     text-decoration: none;
-    padding:1%;
+    color: rgb(255, 255, 255);
+    position: relative;
 }
-.header a:hover{ 
-    background-color:rgba(25, 78, 74, 1);
+#pageLinks a:hover, #resumeLink a:hover{
+    color: rgb(255, 255, 255);
 }
+#pageLinks a::before, #resumeLink a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+}
+#pageLinks a:hover::before, #resumeLink a:hover::before {
+    transform: scaleX(1);
+}
+ 
 @keyframes lineOneMovement{
     from{
         transform: translate(0px, 0px) rotate(0turn);

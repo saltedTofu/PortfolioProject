@@ -21,6 +21,16 @@ function Projects(){
       <div id="projects" className="mainBodySection">
         <h1 className="sectionTitle">Projects</h1>
         <div id="projectExamplesWrapper" className={`fade-in-section ${visible ? 'is-visible' : ''}`}>
+        <div>
+              <Project 
+                name='Dietitian Calc' 
+                liveLink={'https://rdcalc-production.web.app/'}
+                gitLink="https://github.com/saltedTofu/RDCalc2"
+                tech={['React','Redux','MUI', 'Firebase']}
+                img={RDCalc}
+                description='Dietitian Calc is a website designed for use by Clinical Dietitians to perform calculations for tube feedings, nutrition needs (kcal/protein), parenteral nutrition, etc,. The app features an area where the user can add and remove whichever calculators they need and drag them around the area. This app features user authentication and a database hosted on Firebase.'
+              />
+            </div>
           <div>
               <Project 
               name='PomoCustom' 
@@ -51,18 +61,7 @@ function Projects(){
                 description='This app is a tool for people who are trying to learn callout locations for the various competitive maps in Halo 3. Users will navigate to their desired map blueprint and mouse over sections of the map to show the name of the callout and an in-game screenshot on the right side panel. Users can use this app to learn callouts, to quiz themselves, or to use as a reference while playing Halo 3.'
                 />
           </div>
-          
-          
-            <div>
-              <Project 
-                name='Dietitian Calc' 
-                liveLink={'https://dietitiancalc.com/'}
-                gitLink="https://github.com/saltedTofu/RDCalc"
-                tech={['JS','HTML','CSS']}
-                img={RDCalc}
-                description='This project is intended to be a tool for dietitians to make day to day calculations easier. Dietitian Calc uses vanilla JS, HTML, and CSS. There are 3 pages in total (nutrition needs, tube feeding, and TPN/PPN) for the user to pick the calculator they want to use.'
-              />
-            </div>
+            
             
         </div>
       </div>

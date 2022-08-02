@@ -6,6 +6,7 @@ import ReactLogo from '../../../utils/ReactLogo.png';
 import GitLogo from '../../../utils/GitLogo.png';
 import NodeLogo from '../../../utils/NodeLogo.png';
 import SQLLogo from '../../../utils/MySQLLogo.png';
+import PythonLogo from '../../../utils/PythonLogo.png'
 import {useState, useEffect} from 'react';
 import './WhatDoIKnow.css';
 
@@ -55,6 +56,10 @@ function WhatDoIKnow(){
                 <div className="techLogoAndImg">
                     <img alt='Git Logo' src={GitLogo} className="techLogo" id="gitLogo"></img>
                     <span>Git</span>
+                </div>
+                <div className="techLogoAndImg">
+                    <img alt='Python Logo' src={PythonLogo} className="techLogo" id="pythonLogo"></img>
+                    <span>Python</span>
                 </div>
             </div>
         </div>

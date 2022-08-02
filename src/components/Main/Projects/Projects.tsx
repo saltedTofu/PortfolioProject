@@ -26,9 +26,9 @@ function Projects(){
                 name='Dietitian Calc' 
                 liveLink={'https://rdcalc-production.web.app/'}
                 gitLink="https://github.com/saltedTofu/RDCalc2"
-                tech={['React','Redux','MUI', 'Firebase']}
+                tech={['React','Redux','MUI', 'Firebase', 'Python']}
                 img={RDCalc}
-                description='Dietitian Calc is a website designed for use by Clinical Dietitians to perform calculations for tube feedings, nutrition needs (kcal/protein), parenteral nutrition, etc,. The app features an area where the user can add and remove whichever calculators they need and drag them around the area. This app features user authentication and a database hosted on Firebase.'
+                description='Dietitian Calc is a website designed for use by Clinical Dietitians to perform calculations for tube feedings, nutrition needs (kcal/protein), parenteral nutrition, etc,. The app features an area where the user can add and remove whichever calculators they need and drag them around the area. This app features user authentication and a database hosted on Firebase, and a web scraping tool built in Python for getting up to date tube feeding information.'
               />
             </div>
           <div>

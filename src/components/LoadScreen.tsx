@@ -1,4 +1,4 @@
-import './LoadScreen.css';
+import './styles/LoadScreen.css';
 
 const LoadScreen = () =>{
     return(

@@ -1,9 +1,9 @@
-import Header from './components/Header/Header';
-import SideLinks from './components/SideLinks/SideLinks'
-import Sidebar from './components/Sidebar/Sidebar';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
-import LoadScreen from './components/LoadScreen/LoadScreen';
+import Header from './components/Header';
+import SideLinks from './components/SideLinks'
+import Sidebar from './components/Sidebar';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import LoadScreen from './components/LoadScreen';
 import {useState} from 'react';
 import './App.css';
 

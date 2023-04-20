@@ -1,6 +1,6 @@
-import './Header.css';
-import Logo from '../../utils/Logo.png';
-import Resume from '../../utils/Resume.png';
+import './styles/Header.css';
+import Logo from '../utils/Logo.png';
+import Resume from '../utils/Resume.png';
 import {useEffect} from 'react';
 
 type props = {
@@ -43,7 +43,7 @@ function Header({sideLinks, setSideLinks}:props){
                 <a href='#aboutMe'>About</a>
                 <a href='#skills'>Skills</a>
                 <a href='#projects'>Projects</a>
-                <a href='#education'>Education</a>
+                <a href='#education'>Experience</a>
                 <a href='#contact'>Contact</a>
             </div>
             <div id="svgWrapper">

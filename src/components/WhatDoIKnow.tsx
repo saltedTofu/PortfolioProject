@@ -1,14 +1,14 @@
-import JSLogo from '../../../utils/JSLogo.png';
-import CSSLogo from '../../../utils/CSSLogo.png';
-import HTMLLogo from '../../../utils/HTMLLogo.png';
-import TypeScriptLogo from '../../../utils/TypeScriptLogo.png';
-import ReactLogo from '../../../utils/ReactLogo.png';
-import GitLogo from '../../../utils/GitLogo.png';
-import NodeLogo from '../../../utils/NodeLogo.png';
-import SQLLogo from '../../../utils/MySQLLogo.png';
-import PythonLogo from '../../../utils/PythonLogo.png'
+import JSLogo from '../utils/JSLogo.png';
+import CSSLogo from '../utils/CSSLogo.png';
+import HTMLLogo from '../utils/HTMLLogo.png';
+import TypeScriptLogo from '../utils/TypeScriptLogo.png';
+import ReactLogo from '../utils/ReactLogo.png';
+import GitLogo from '../utils/GitLogo.png';
+import NodeLogo from '../utils/NodeLogo.png';
+import SQLLogo from '../utils/MySQLLogo.png';
+import PythonLogo from '../utils/PythonLogo.png'
 import {useState, useEffect} from 'react';
-import './WhatDoIKnow.css';
+import './styles/WhatDoIKnow.css';
 
 function WhatDoIKnow(){
     const [visible,setVisible] = useState(true);

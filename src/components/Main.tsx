@@ -1,10 +1,10 @@
-import './Main.css';
+import './styles/Main.css';
 //Component Imports
-import Contact from './Contact/Contact';
-import Projects from './Projects/Projects';
-import WhatDoIKnow from './WhatDoIKnow/WhatDoIKnow';
-import WhoAmI from './WhoAmI/WhoAmI';
-import Education from './Education/Education';
+import Contact from './Contact';
+import Projects from './Projects';
+import WhatDoIKnow from './WhatDoIKnow';
+import WhoAmI from './WhoAmI';
+import Education from './Education';
 
 function Main(){
     return(

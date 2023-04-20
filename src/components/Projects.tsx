@@ -1,10 +1,10 @@
-import Project from './Project/Project';
-import RDCalc from '../../../utils/RDCalc.png';
-import Pomodoro from '../../../utils/Pomodoro.png';
-import Callouts from '../../../utils/Callouts.png';
-import ClickChamp from '../../../utils/ClickChamp.png';
+import Project from './Project';
+import RDCalc from '../utils/RDCalc.png';
+import Pomodoro from '../utils/Pomodoro.png';
+import Callouts from '../utils/Callouts.png';
+import ClickChamp from '../utils/ClickChamp.png';
 import {useState, useEffect} from 'react';
-import './Projects.css';
+import './styles/Projects.css';
 
 function Projects(){
   const [visible,setVisible] = useState(true);

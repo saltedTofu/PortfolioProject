@@ -1,5 +1,5 @@
-import './SideLinks.css';
-import Resume from '../../utils/Resume.png';
+import './styles/SideLinks.css';
+import Resume from '../utils/Resume.png';
 import {useEffect} from 'react';
 type props = {
     sideLinks:string,

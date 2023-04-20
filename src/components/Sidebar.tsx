@@ -1,6 +1,6 @@
-import './Sidebar.css';
-import LinkedIn from '../../utils/linkedinLogo.png';
-import GitHub from '../../utils/githubLogo.png';
+import './styles/Sidebar.css';
+import LinkedIn from '../utils/linkedinLogo.png';
+import GitHub from '../utils/githubLogo.png';
 function Sidebar(){
 
     const handleMouseEnter = (div:string):void => {

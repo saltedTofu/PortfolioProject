@@ -1,4 +1,4 @@
-import '../Projects.css';
+import './styles/Projects.css';
 
 type projectProps = {
     name:string;

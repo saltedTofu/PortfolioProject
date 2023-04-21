@@ -1,6 +1,7 @@
 import Project from './Project';
 import RDCalc from '../utils/RDCalc.png';
 import Pomodoro from '../utils/Pomodoro.png';
+import LoLMatchMaker from '../utils/LoLMatchMaker.png'
 import Callouts from '../utils/Callouts.png';
 import ClickChamp from '../utils/ClickChamp.png';
 import {useState, useEffect} from 'react';
@@ -39,6 +40,16 @@ function Projects(){
               tech={['React','Redux','MUI']} 
               img={Pomodoro}
               description='Pomodoro (Italian for tomato) is a study technique that takes advantage of switching between work periods and break periods to maximize focus and minimize distractions. This is a custom Pomodoro timer that allows the user to customize their work timer, rest timer, total number of rounds, as well as the overall theme of the webpage.'
+              />
+            </div>
+            <div>
+              <Project 
+              name='League Match Maker' 
+              liveLink="https://super-cool-site-by-saltedtofu.netlify.app/"
+              gitLink="https://github.com/saltedTofu/LoL-matchup-maker/releases"
+              tech={['React','Electron','Node']} 
+              img={LoLMatchMaker}
+              description={`LoL Matchup Maker is a desktop application made for taking notes on specific champion matchups in the game "League of Legends" and allowing you to reference them quickly during champion select. There is also a champion ability cooldown/range reference tool included.`}
               />
             </div>
             <div>

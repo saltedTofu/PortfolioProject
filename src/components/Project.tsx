@@ -2,7 +2,7 @@ import './styles/Projects.css';
 
 type projectProps = {
     name:string;
-    liveLink:string;
+    liveLink?:string;
     gitLink:string;
     tech:string[];
     img:string;
@@ -23,7 +23,7 @@ const Project = ({name, liveLink, gitLink, tech, img, description}:projectProps)
                 </div>
                 <div id="gitAndLiveLinks">
                     <a target="_blank" rel="noreferrer" href={gitLink}>Github</a>
-                    <a target="_blank" rel="noreferrer" href={liveLink}>Live</a>
+                    {liveLink && (<a target="_blank" rel="noreferrer" href={liveLink}>Live</a>)}
                 </div>
             </div>
             <div id="projectBorder"></div>

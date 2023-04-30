@@ -55,7 +55,6 @@ function Projects(){
             <div>
               <Project 
                 name='Click Champ' 
-                liveLink={'https://click-champ.herokuapp.com/'}
                 gitLink="https://github.com/saltedTofu/click-champ"
                 tech={['PostgreSQL','Express','React','Node']}
                 img={ClickChamp}

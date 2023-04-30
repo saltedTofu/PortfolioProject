@@ -7,8 +7,10 @@ import GitLogo from '../utils/GitLogo.png';
 import NodeLogo from '../utils/NodeLogo.png';
 import SQLLogo from '../utils/MySQLLogo.png';
 import PythonLogo from '../utils/PythonLogo.png'
+import MongoLogo from '../utils/MongoDBLogo.png'
 import {useState, useEffect} from 'react';
 import './styles/WhatDoIKnow.css';
+import TechnologyKnown from './TechnologyKnown';
 
 function WhatDoIKnow(){
     const [visible,setVisible] = useState(true);
@@ -25,42 +27,63 @@ function WhatDoIKnow(){
         <div id="skills" className={`mainBodySection fade-in-section ${visible ? 'is-visible' : ''}`}>
             <h1 className="sectionTitle">Technologies</h1>
             <div id="technologiesList">
-                <div className="techLogoAndImg">
-                    <img alt="Javascript Logo"src={JSLogo} className="techLogo" id="javascriptLogo"></img>
-                    <span>Javascript</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img  alt='HTML Logo'src={HTMLLogo} className="techLogo"></img>
-                    <span>HTML</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='CSS Logo' src={CSSLogo} className="techLogo"></img>
-                    <span>CSS</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='React Logo' src={ReactLogo} className="techLogo"></img>
-                    <span>React.js</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='Typescript Logo' src={TypeScriptLogo} className="techLogo" id="typescriptLogo"></img>
-                    <span>Typescript</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='Node.js Logo' src={NodeLogo} className="techLogo" id="nodeLogo"></img>
-                    <span>Node.js</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='SQL Logo' src={SQLLogo} className="techLogo" id="sqlLogo"></img>
-                    <span>SQL</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='Git Logo' src={GitLogo} className="techLogo" id="gitLogo"></img>
-                    <span>Git</span>
-                </div>
-                <div className="techLogoAndImg">
-                    <img alt='Python Logo' src={PythonLogo} className="techLogo" id="pythonLogo"></img>
-                    <span>Python</span>
-                </div>
+                <TechnologyKnown 
+                    logo={JSLogo}
+                    imageAlt="Javascript Logo"
+                    name="Javascript"
+                    logoId="javascriptLogo"
+                />
+                <TechnologyKnown 
+                    logo={HTMLLogo}
+                    imageAlt="HTML Logo"
+                    name="HTML"
+                />
+                <TechnologyKnown 
+                    logo={CSSLogo}
+                    imageAlt="CSS Logo"
+                    name="CSS"
+                />
+                <TechnologyKnown 
+                    logo={ReactLogo}
+                    imageAlt="React Logo"
+                    name="React.js"
+                />
+                <TechnologyKnown 
+                    logo={TypeScriptLogo}
+                    imageAlt="Typescript Logo"
+                    name="Typescript"
+                    logoId="typescriptLogo"
+                />
+                <TechnologyKnown 
+                    logo={NodeLogo}
+                    imageAlt="Node Logo"
+                    name="Node.js"
+                    logoId="nodeLogo"
+                />
+                <TechnologyKnown 
+                    logo={SQLLogo}
+                    imageAlt="SQL Logo"
+                    name="SQL"
+                    logoId="sqlLogo"
+                />
+                <TechnologyKnown 
+                    logo={MongoLogo}
+                    imageAlt="Mongo Logo"
+                    name="MongoDB"
+                    logoId="mongoLogo"
+                />
+                <TechnologyKnown 
+                    logo={GitLogo}
+                    imageAlt="Git Logo"
+                    name="Git"
+                    logoId="gitLogo"
+                />
+                <TechnologyKnown 
+                    logo={PythonLogo}
+                    imageAlt="Python Logo"
+                    name="Python"
+                    logoId="pythonLogo"
+                />
             </div>
         </div>
     )

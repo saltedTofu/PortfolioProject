@@ -9,7 +9,7 @@
 #education a:hover{
     background-color:rgba(25, 78, 74, 1);
 }
-#school, #devCourses, #workExperience{
+#school, #workExperience{
     margin-bottom:2%;
     margin-top:2%;
     display: flex;

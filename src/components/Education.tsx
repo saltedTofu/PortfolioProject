@@ -55,14 +55,6 @@ const Education = () => {
                 <p>University Of Houston, B.S. in Nutritional Sciences, Minor in Biology</p>
                 <p className="subscript dates">Graduated 2018</p>
             </div>
-            <div id="devCourses">
-                <h3 className='educationExperienceTitle'>Developer Courses</h3>
-                <p>Codecademy: Full-Stack Engineer Path</p>
-                <br></br>
-                <p>Codecademy: Typescript</p>
-                <br></br>
-                <p>Udemy: Javascript Algorithms and Data Structures Masterclass</p>
-            </div>
         </div>
     )   
 }

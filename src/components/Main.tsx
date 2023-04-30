@@ -12,8 +12,8 @@ function Main(){
             <h1 id="tylerDansby">Tyler Dansby, RD</h1>
             <WhoAmI />
             <WhatDoIKnow />
-            <Projects />
             <Education />
+            <Projects />
             <Contact />
         </div>
     )

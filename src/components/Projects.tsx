@@ -37,7 +37,7 @@ function Projects(){
             <Project 
                 name='Music Metadata Generator' 
                 gitLink="https://github.com/saltedTofu/youtube-to-mp3-metadata-fixer"
-                tech={['Python','OpenAI GPT3']}
+                tech={['Python','GPT3']}
                 img={MusicMeta}
                 description='Desktop app created for fixing metadata for .mp3 files made from Youtube videos using OpenAI. This script will iterate through a folder of .mp3 files, use GPT3 to find an appropriate title and artist, update the metadata for the file, and then rename the file to match the title. The user only needs to point to the folder of .mp3 files they want to generate the metadata for and then provide their OpenAI API key.'
             />
@@ -66,7 +66,7 @@ function Projects(){
               <Project 
                 name='Click Champ' 
                 gitLink="https://github.com/saltedTofu/click-champ"
-                tech={['PostgreSQL','Express','React','Node']}
+                tech={['SQL','React','Node']}
                 img={ClickChamp}
                 description='Click Champ is a full stack game (PERN stack) where you can create an account, login, and increase your rank on the scoreboard by clicking the button. The project uses a SQL database for storing/retrieving user data. For encryption I used the crypto-js node library for hashing and salting the passwords before storing them. '
               />

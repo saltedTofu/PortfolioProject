@@ -1,4 +1,5 @@
 import './styles/Projects.css';
+import Chip from './Chip';
 
 type projectProps = {
     name:string;
@@ -19,7 +20,7 @@ const Project = ({name, liveLink, gitLink, tech, img, description}:projectProps)
                     <p>{description}</p>
                 </div>
                 <div className="techInProject">
-                    {tech.map(tech => (<div key={tech} className="techChip"><p>{tech}</p></div>))}
+                    {tech.map(tech => (<Chip tech={tech} variant="small"/>))}
                 </div>
                 <div id="gitAndLiveLinks">
                     <a target="_blank" rel="noreferrer" href={gitLink}>Github</a>

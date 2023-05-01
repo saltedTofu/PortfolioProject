@@ -4,6 +4,7 @@ import Job from './Job';
 import RetriumLogo from '../utils/RetriumLogo.png';
 import HMSLLogo from '../utils/HMSLLogo.jpg';
 import SodexoLogo from '../utils/SodexoLogo.png';
+import UHLogo from '../utils/UHLogo.png';
 
 const Education = () => {
     const [visible,setVisible] = useState(true);
@@ -26,7 +27,7 @@ const Education = () => {
                     company="Retrium"
                     dates="Oct 2022-Present"
                     logo={RetriumLogo}
-                    tech={["React", "Node", "Express", "MongoDB"]}
+                    tech={["React", "Node", "MongoDB"]}
                     logoAlt="Retrium Logo"
                     logoId="retriumLogo"
                 />
@@ -52,8 +53,13 @@ const Education = () => {
             </div>
             <div id="school">
                 <h3 className='educationExperienceTitle'>Education</h3>
-                <p>University Of Houston, B.S. in Nutritional Sciences, Minor in Biology</p>
-                <p className="subscript dates">Graduated 2018</p>
+                <div className="schoolContainer">
+                    <img src={UHLogo} alt="UH Logo" id="UHLogo"></img>
+                    <div className='schoolInfo'>
+                        <p>University Of Houston, B.S. in Nutritional Sciences, Minor in Biology</p>
+                        <p className="subscript dates">Graduated 2018</p>
+                    </div>
+                </div>
             </div>
         </div>
     )   

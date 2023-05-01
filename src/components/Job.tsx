@@ -1,4 +1,5 @@
 import './styles/Education.css';
+import Chip from './Chip';
 
 interface Props {
     jobTitle:string;
@@ -20,8 +21,8 @@ function Job({jobTitle, company, dates, logo, tech, logoAlt, logoId}:Props){
                 <p>{jobTitle} - {company}</p>
                 <p className="subscript dates">{dates}</p>
                 <div className="workTechList">
-                    {tech && tech.map((technology)=>(
-                        <div className="workTechChip"><p className="workTech">{technology}</p></div>
+                    {tech && tech.map((tech)=>(
+                        <Chip tech={tech} variant="large"/>
                     ))}
                 </div>
             </div>
